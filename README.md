@@ -13,7 +13,7 @@ Yellow light: When the object is between 8cm to 15cm away, signaling caution.
 Red light: When the object is less than 8cm away, indicating a stop.
 Adaptive Response: The lights respond in real-time to changes in the distance, mimicking an adaptive traffic control system.
 
-Continuous Operation: The system runs in a loop, continuously updating the lights as the object moves.
+Continuous Operation: The system runs in a loop, continuously updating the lights every 0.5 seconds as the object moves.
 
 End of Program: The LEDs turn off when the program is terminated, ensuring no lights are left on.
 
@@ -24,6 +24,7 @@ End of Program: The LEDs turn off when the program is terminated, ensuring no li
 
 ## Equipment Used
 - Raspberry Pi Board (Zero)
+- Echo Sensor (HC-SR04)
 - LEDs
 - Resistors
 - Jumper Wires
